@@ -1,2 +1,4 @@
-# react_hooks_functional_component
-Created with CodeSandbox
+# React: Using Hooks in Functional Components
+
+Hooks: useState, useEffect
+Router: @reach/router
