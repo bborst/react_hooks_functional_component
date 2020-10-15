@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+}
+nav {
+  height: 64px;
+}
+nav a,
+nav a:visited,
+.albums a,
+.albums a:visited {
+  color: #215ca0;
+}
+.albums a:hover,
+nav a:hover {
+  color: #032e61;
+}
+nav a.logo {
+  background-image: url(https://c1.sfdcstatic.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg);
+  display: block;
+  width: 77px;
+  height: 49px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+nav ul {
+  list-style: none;
+  width: 50%;
+  margin: 10px 0 0 20px;
+  padding: 0;
+  display: inline-block;
+}
+nav li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.card {
+  background-color: #215ca0;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.card a {
+  color: #fff;
+}
+
+.albums ul {
+  color: #215ca0;
+}
+.albums li {
+  padding: 5px 0;
+}
