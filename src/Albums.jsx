@@ -11,7 +11,7 @@ const Albums = (prop) => {
     res
       .json()
       .then((res) => setAlbums(res))
-      .catch((errors) => setErrors());
+      .catch((errors) => setErrors(errors));
   }
 
   useEffect(() => {
